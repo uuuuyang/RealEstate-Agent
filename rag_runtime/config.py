@@ -32,4 +32,4 @@ CHROMA_PERSIST_DIR = "./chroma_jll"
 COLLECTION_NAME = "jll_units"
 
 # DeepSeek API key 从环境变量读取
-DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "sk-fd2c0c785636427898bd7fa1ac25afcb")
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "your-key")
