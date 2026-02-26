@@ -21,23 +21,23 @@
 
 
 ## 📁 项目结构
-RealEstate-Agent/
-├── rag_preprocess/ # 预处理模块
-│ ├── chunking/ # 分块策略
-│ ├── doc_parser.py # 解析 docx 文档
-│ ├── table_parser.py # 解析交易表格
-│ ├── incremental_updater.py # 增量更新
-│ └── run.py # 预处理入口
-├── rag_runtime/ # 运行时模块
-│ ├── query_parser.py # 意图解析
-│ ├── rag_retriever.py # 检索器
-│ ├── rag_chain.py # 回答生成
-│ ├── tools.py # 计算工具
-│ ├── cache_manager.py # 缓存
-│ ├── evaluation.py # 评估
-│ └── config.py # 全局配置
-├── requirements.txt # 依赖
-└── README.md # 本文档
+- RealEstate-Agent/
+  - rag_preprocess/           # 预处理模块
+    - chunking/               # 分块策略
+    - doc_parser.py           # 解析 docx 文档
+    - table_parser.py         # 解析交易表格
+    - incremental_updater.py  # 增量更新
+    - run.py                  # 预处理入口
+  - rag_runtime/              # 运行时模块
+    - query_parser.py         # 意图解析
+    - rag_retriever.py        # 检索器
+    - rag_chain.py            # 回答生成
+    - tools.py                # 计算工具
+    - cache_manager.py        # 缓存
+    - evaluation.py           # 评估
+    - config.py               # 全局配置
+  - requirements.txt          # 项目依赖
+  - README.md                 # 项目说明文档
 
 
 ## 数据准备
