@@ -1,0 +1,23 @@
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 虚拟环境
+venv/
+env/
+.env
+
+# 本地数据
+data/report.docx
+data/transaction.xlsx
+data/new/
+
+# 向量库持久化目录
+chroma_jll/
+
+# IDE 配置
+.vscode/
+.idea/
+
+# 缓存文件
+*.cache
